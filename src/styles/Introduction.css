@@ -1,0 +1,72 @@
+@import "globals.css";
+
+.full-screen-container {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.full-screen-container-inner {
+    display: flex;
+    margin: auto;
+    text-align: left;
+    width: var(--main-container-width);
+}
+
+.welcome-container {
+    width: 70%;
+    background: red;
+}
+
+.projects-container {
+    width: 30%;
+    background: blue;
+}
+
+.name-text {
+    font-size: 5rem;
+}
+.dev-text {
+    font-size: 2rem;
+}
+.center{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.col-1 {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+.flex-vertical-center {
+    /*justify-content: center;*/
+    align-items: center;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.margins-auto {
+    margin: auto;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.p-10 {
+    padding: 0 5% 0 5%;
+}
+
+.p-14 {
+    padding: 0 7% 0 7%;
+}
+
+.p-18 {
+    padding: 0 9% 0 9%;
+}
