@@ -1,34 +1,121 @@
 @import "globals.css";
 
+:root {
+    --ornament-size: 20%;
+    --ornament-size-small: 10%;
+    --text-padding_percent: 10%;
+    --text-padding: var(--text-padding_percent) 0% var(--text-padding_percent) 0%;
+
+    --overall-width: 80%;
+    --welcome-width: 80%;
+    --projects-width: 20%;
+
+}
+
+li {
+    list-style-type: square;
+}
+li:hover, li::marker {
+    color: #a60808;
+    animation-name: anim-markers;
+    animation-duration: 0.5s;
+    /*direction: ltr;*/
+    /*rotate: 45deg;*/
+}
+@keyframes anim-markers {
+    from {
+        font-size: 1rem;
+    }
+    to {
+        font-size: 2rem;
+    }
+    
+}
+
 .full-screen-container {
+    font-family: 'Montserrat', sans-serif;
     display: flex;
     align-items: center;
     height: 100vh;
 }
 
 .full-screen-container-inner {
+
     display: flex;
-    margin: auto;
+    margin: 0 auto;
     text-align: left;
-    width: var(--main-container-width);
+}
+
+.ornament-container {
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+    width: var(--overall-width);
+}
+
+.small_ornament_container {
+    display: flex;
+    width: 20%;
+    margin: 0 auto;
+    padding: var(--text-padding);
+}
+
+.info-container {
+    display: flex;
+    padding: 5%;
+}
+
+.info-container-small {
+    display: flex;
+    padding: 15%;
 }
 
 .welcome-container {
-    width: 70%;
-    background: red;
+    width: var(--welcome-width);
+    padding: var(--text-padding);
 }
 
 .projects-container {
-    width: 30%;
-    background: blue;
+    width: 80%;
 }
 
-.name-text {
+.welcome-text {
+    font-weight: 200;
     font-size: 5rem;
 }
 .dev-text {
+    font-weight: 200;
+    font-size: 1.5rem;
+}
+
+.projects-text {
+    font-weight: 300;
     font-size: 2rem;
 }
+
+.signature {
+    text-align: right;
+    padding: 0 10% 0 0%;
+}
+
+
+.ornament-top-left {
+    position: absolute;
+    width: var(--ornament-size);
+}
+.ornament-bottom-right {
+    position: absolute;
+    width: var(--ornament-size);
+    rotate: 180deg;
+    bottom: 0;
+    right: 0;
+}
+
+.ornament-small {
+    width: var(--ornament-size-small);
+}
+
+/*helper classes*/
 .center{
     width: 60%;
     margin: auto;
@@ -69,4 +156,12 @@
 
 .p-18 {
     padding: 0 9% 0 9%;
+}
+
+.overflow-auto {
+    overflow: auto;
+}
+
+.bullets-inside {
+    list-style-position: inside;
 }
