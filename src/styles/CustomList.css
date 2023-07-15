@@ -13,7 +13,8 @@
 .sidebar {
     position: absolute;
     width: var(--sidebar-width);
-    height: var(--list-item-height);
+    /*height: var(--list-item-height);*/
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,6 +31,7 @@
     display: flex;
     width: var(--sidebar-width);
     height: var(--list-item-height);
+    /*height: 50%;*/
     align-items: center;
     justify-content: center;
 }

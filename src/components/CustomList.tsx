@@ -14,13 +14,7 @@ export default function CustomList({projectNames, comingSoonText}: {projectNames
         <div className={"custom-list-container"}>
 
             {projectNames.map(ListItems)}
-            {/*<CustomListItem projectText={"test"}/>*/}
-            {/*<CustomListItem projectText={"test2"}/>*/}
-            {/*<CustomListItem projectText={"test3"}/>*/}
             <p className={"coming-soon"}>Coming Soon</p>
-            {/*<CustomListItem projectText={"test"}/>*/}
-            {/*<CustomListItem projectText={"test2"}/>*/}
-            {/*<CustomListItem projectText={"test3"}/>*/}
             {comingSoonText.map(ListItems)}
 
 
