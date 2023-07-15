@@ -1,4 +1,7 @@
 import "../styles/Introduction.css";
+// import CustomListItem from "./CustomListItem.tsx";
+import CustomList from "./CustomList.tsx";
+import {coming_soon, projects} from "../data/projects.ts";
 
 export default function Introduction() {
     return (
@@ -24,21 +27,18 @@ export default function Introduction() {
 
                         </div>
                     </div>
-                    <div className={"small_ornament_container"}>
+                    <div className={"small-ornament-container"}>
                         <img src="src/assets/corner_ornament_complex2.svg" alt="" className={"ornament-top-left ornament-small"}/>
                         <div className={"info-container-small"}>
                             <div className={'projects-container'}>
-                                <h1 className={'projects-text'}>Projects</h1>
-                                <ul className={"bullets-inside"}>
-                                    <br/>
-                                    <li>GIS</li>
-                                    <br/>
-                                    <li>Item</li>
-                                    <br/>
-                                    <li>Item</li>
-                                    <br/>
-                                    <li>Item</li>
-                                </ul>
+                                <h1 className={'projects-heading'}>Projects</h1>
+                                {/*<CustomListItem projectText={"WPS GIS"}/>*/}
+                                {/*<CustomListItem projectText={"Wordle Clone"}/>*/}
+                                {/*<p>Coming Soon:</p>*/}
+                                {/*<CustomListItem projectText={"Pandemic Sim"}/>*/}
+                                {/*<CustomListItem projectText={"E-Commerce Storefront"}/>*/}
+                                {/*<CustomListItem projectText={"Sports Betting"}/>*/}
+                                <CustomList comingSoonText={coming_soon} projectNames={projects}/>
                             </div>
                         </div>
                     </div>
