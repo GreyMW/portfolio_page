@@ -68,6 +68,7 @@
 .dev-text {
     font-weight: 200;
     font-size: 1.5rem;
+    padding-right: 9%;
 }
 
 .projects-heading {
@@ -96,6 +97,19 @@
 
 .ornament-small {
     width: var(--ornament-size-small);
+}
+
+.text-ornament {
+    /*width: 5%;*/
+    padding-left: 7%;
+    padding-right: 2%;
+
+}
+
+.text-ornament-inner{
+    width: 4px;
+    height: 100%;
+    background-color: var(--highlight-color);
 }
 
 /*helper classes*/
