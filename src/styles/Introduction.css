@@ -34,6 +34,7 @@
 }
 
 .small-ornament-container {
+    /*position: absolute;*/
     display: flex;
     width: 20%;
     margin: 0 auto;
@@ -44,19 +45,31 @@
 .info-container {
     display: flex;
     padding: 5%;
+    overflow: hidden;
 }
+
 
 .info-container-small {
     display: flex;
     padding: 15% 0 15% 15%;
     width: 100%;
+
 }
 
 .welcome-container {
+    /*position: fixed;*/
     width: var(--welcome-width);
     padding: var(--text-padding);
+    transform: translate(0, 100vh);
+    transition: transform 1s;
 }
 
+.holdout {
+    /*position: absolute;*/
+    width: var(--welcome-width);
+    /*padding: var(--text-padding);*/
+    /*flex: 1;*/
+}
 .projects-container {
     width: 100%;
 }
@@ -110,6 +123,14 @@
     width: 4px;
     height: 100%;
     background-color: var(--highlight-color);
+}
+
+.lower {
+    transform: translate(0, 100vh);
+}
+
+.lower {
+    transform: translate(0, 0);
 }
 
 /*helper classes*/

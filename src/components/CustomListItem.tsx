@@ -1,4 +1,6 @@
-export default function CustomListItem({projectText}: {projectText: string}) {
+import React from "react";
+
+export default function CustomListItem({projectText, setActive}: {projectText: string, setActive: React.Dispatch<React.SetStateAction<string>>}) {
     return (
         <div className={"custom-list-item"}>
             <div className={"sidebar"}>
@@ -11,7 +13,7 @@ export default function CustomListItem({projectText}: {projectText: string}) {
 
                 </div>
             </div>
-            <div className={"project-name"}>
+            <div className={"project-name"} onClick={() => setActive(projectText)}>
                 <p>{projectText}</p>
 
             </div>

@@ -1,11 +1,15 @@
 import "../styles/CustomList.css";
 import CustomListItem from "./CustomListItem.tsx";
+import React from "react";
 
-export default function CustomList({projectNames, comingSoonText}: {projectNames: string[], comingSoonText: string[]}) {
+export default function CustomList(
+    {projectNames, comingSoonText, setActive}:
+    { projectNames: string[], comingSoonText: string[], setActive: React.Dispatch<React.SetStateAction<string>> }
+) {
 
-    const ListItems = function(text: string) {
+    const ListItems = function (text: string) {
         return (
-            <CustomListItem projectText={text}/>
+            <CustomListItem projectText={text} setActive={setActive}/>
         )
     }
 
