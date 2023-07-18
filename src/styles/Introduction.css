@@ -27,6 +27,7 @@
     /*background-color: blue;*/
 }
 .main-subcontainer-left {
+    position: relative;
     display: flex;
     width: var(--main-subcontainer-left-width);
     align-items: center;

@@ -1,6 +1,8 @@
-.welcome-text {
-    font-size: 5rem;
+
+.gis-title-text {
+    font-size: 3rem;
     font-weight: 200;
+    padding-bottom: 1rem;
 }
 
 .dev-text {
@@ -12,14 +14,18 @@
     padding-left: 3%;
     padding-right: 3%;
 }
-
 .text-ornament-inner {
     width: 4px;
     height: 100%;
     background-color: var(--highlight-color);
 }
 
+
 .signature {
     text-align: right;
     padding: 0 10% 0 0;
+}
+
+.test-svg {
+
 }

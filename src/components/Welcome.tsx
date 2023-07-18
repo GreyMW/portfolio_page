@@ -1,9 +1,10 @@
 import "../styles/Welcome.css";
+import "../styles/project_info.css";
 export default function Welcome({active}: {active: string}) {
     return (
         <div className={active === "Welcome" ? "left-pane-content" : "left-pane-content lower"}>
             <div>
-                <h1 className={'welcome-text p-10'}>Welcome.</h1>
+                <h1 className={'welcome-text'}>Welcome.</h1>
             </div>
             <div>
                 <div className={"flex"}>
@@ -23,5 +24,6 @@ export default function Welcome({active}: {active: string}) {
 
             </div>
         </div>
+
     )
 }
