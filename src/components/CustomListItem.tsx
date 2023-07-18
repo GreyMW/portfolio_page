@@ -1,5 +1,5 @@
 import React from "react";
-
+import "../styles/CustomListItem.css"
 export default function CustomListItem({projectText, setActive}: {projectText: string, setActive: React.Dispatch<React.SetStateAction<string>>}) {
     return (
         <div className={"custom-list-item"}>
@@ -14,7 +14,7 @@ export default function CustomListItem({projectText, setActive}: {projectText: s
                 </div>
             </div>
             <div className={"project-name"} onClick={() => setActive(projectText)}>
-                <p>{projectText}</p>
+                <p className={'project-text'}>{projectText}</p>
 
             </div>
         </div>

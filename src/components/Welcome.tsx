@@ -1,7 +1,7 @@
-
+import "../styles/Welcome.css";
 export default function Welcome({active}: {active: string}) {
     return (
-        <div className={active === "Welcome XX" ? "welcome-container" : "welcome-container lower"}>
+        <div className={active === "Welcome" ? "left-pane-content" : "left-pane-content lower"}>
             <div>
                 <h1 className={'welcome-text p-10'}>Welcome.</h1>
             </div>
@@ -10,7 +10,7 @@ export default function Welcome({active}: {active: string}) {
                     <div className={"text-ornament"}>
                         <div className={"text-ornament-inner"}></div>
                     </div>
-                    <h1 className={'dev-text'}>After being a Crime Analyst for seven years, I reminisced and found
+                    <h1 className={'dev-text'}>After being a Crime Analyst for many years, I reminisced and found
                         that what I enjoyed most about the job was the programming.
                         Now I'm pursuing that passion.
                         <br/><br/>

@@ -1,0 +1,35 @@
+.left-pane-content {
+    transform: translate(0, 0);
+    transition: transform 2s;
+}
+
+.lower {
+    transform: translate(0, 100%);
+
+}
+
+.welcome-text {
+    font-size: 5rem;
+    font-weight: 200;
+}
+
+.dev-text {
+    font-weight: 200;
+    font-size: 1.5rem;
+}
+
+.text-ornament {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.text-ornament-inner {
+    width: 4px;
+    height: 100%;
+    background-color: var(--highlight-color);
+}
+
+
+.signature {
+    text-align: right;
+    padding: 0 10% 0 0;
+}
