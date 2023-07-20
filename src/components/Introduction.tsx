@@ -3,6 +3,7 @@ import {useState} from "react";
 import Welcome from "./Welcome.tsx";
 import ProjectSelect from "./ProjectSelect.tsx";
 import WPS_GIS from "./WPS_GIS.tsx";
+import WordleAI from "./WordleAI.tsx";
 
 export default function Introduction() {
 
@@ -16,6 +17,7 @@ export default function Introduction() {
                 <div className={"main-subcontainer-left"}>
                     <Welcome active={active}/>
                     <WPS_GIS active={active}/>
+                    <WordleAI active={active}/>
                 </div>
                 <div className={"main-subcontainer-right"}>
                     <ProjectSelect setActive={setActive}/>
