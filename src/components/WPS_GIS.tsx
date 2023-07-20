@@ -5,6 +5,7 @@ import TypescriptIcon from "./svg/TypescriptIcon.tsx";
 import LeafletIcon from "./svg/LeafletIcon.tsx";
 import GitHubIcon from "./svg/GitHubIcon.tsx";
 import NetlifyIcon from "./svg/NetlifyIcon.tsx";
+import IconLink from "./svg/IconLink.tsx";
 
 export default function WPS_GIS ({active}: {active: string}) {
     return (
@@ -19,7 +20,7 @@ export default function WPS_GIS ({active}: {active: string}) {
                     </div>
                     <div>
                         <h1 className={'dev-text'}>
-                            As a Crime Analyst we utilized GIS (Geographic Information Systems). The one we used wasn't cutting it
+                            As a Crime Analyst we utilized GIS (Geographic Information Systems). The one we used wasn't cutting it,
                             so I developed my own in Java.
                             <br/>
                             <br/>
@@ -33,11 +34,11 @@ export default function WPS_GIS ({active}: {active: string}) {
 
                         <h1 className={'dev-text'}>
                             <br/>
-                            Technologies: <FontAwesomeReactIcon/>
-                            , <LeafletIcon/>
-                            , <TypescriptIcon/>
-                            , <GitHubIcon/>
-                            , <NetlifyIcon/>
+                            Technologies: <IconLink link={"https://react.dev/"} svg={<FontAwesomeReactIcon/>} hoverText={"React"}/>
+                            , <IconLink link={"https://leafletjs.com/"} svg={<LeafletIcon/>} hoverText={"Leaflet"}/>
+                            , <IconLink link={"https://www.typescriptlang.org/"} svg={<TypescriptIcon/>} hoverText={"TypeScript"}/>
+                            , <IconLink link={"https://github.com/GreyMW/cell_tower_gis"} svg={<GitHubIcon/>} hoverText={"GitHub"}/>
+                            , <IconLink link={"https://www.netlify.com/"} svg={<NetlifyIcon/>} hoverText={"Netlify"}/>
                         </h1>
                     </div>
                 </div>
