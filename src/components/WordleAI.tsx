@@ -23,7 +23,7 @@ export default function WordleAI ({active}: {active: string}) {
                     </div>
                     <div>
                         <h1 className={'dev-text'}>
-                            I'm an AI hobbyist. Here I decided to apply it to the popular word game Wordle to
+                            I'm an AI hobbyist. I decided to apply it to the popular word game "Wordle" to
                             see how it performs against a data oriented approach to solving it.
                             <br/>
                             <br/>

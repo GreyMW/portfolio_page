@@ -4,6 +4,7 @@ import Welcome from "./Welcome.tsx";
 import ProjectSelect from "./ProjectSelect.tsx";
 import WPS_GIS from "./WPS_GIS.tsx";
 import WordleAI from "./WordleAI.tsx";
+import PandemicSim from "./PandemicSim.tsx";
 
 export default function Introduction() {
 
@@ -18,6 +19,7 @@ export default function Introduction() {
                     <Welcome active={active}/>
                     <WPS_GIS active={active}/>
                     <WordleAI active={active}/>
+                    <PandemicSim active={active}/>
                 </div>
                 <div className={"main-subcontainer-right"}>
                     <ProjectSelect setActive={setActive}/>
