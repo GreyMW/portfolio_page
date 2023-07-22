@@ -1,5 +1,5 @@
-import "../styles/Welcome.css";
-import "../styles/project_info.css";
+import "../../styles/Welcome.css";
+import "../../styles/project_info.css";
 export default function Welcome({active}: {active: string}) {
     return (
         <div className={active === "Welcome" ? "left-pane-content" : "left-pane-content lower"}>

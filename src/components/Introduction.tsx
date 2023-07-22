@@ -1,10 +1,10 @@
 import "../styles/Introduction.css";
 import {useState} from "react";
-import Welcome from "./Welcome.tsx";
+import Welcome from "./project_descriptions/Welcome.tsx";
 import ProjectSelect from "./ProjectSelect.tsx";
-import WPS_GIS from "./WPS_GIS.tsx";
-import WordleAI from "./WordleAI.tsx";
-import PandemicSim from "./PandemicSim.tsx";
+import WPS_GIS from "./project_descriptions/WPS_GIS.tsx";
+import WordleAI from "./project_descriptions/WordleAI.tsx";
+import PandemicSim from "./project_descriptions/PandemicSim.tsx";
 
 export default function Introduction() {
 

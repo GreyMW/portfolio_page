@@ -1,15 +1,16 @@
-import IconLink from "./svg/IconLink.tsx";
-import FontAwesomeReactIcon from "./svg/FontAwesomeReactIcon.tsx";
-import RustIcon from "./svg/RustIcon.tsx";
-import GitHubIcon from "./svg/GitHubIcon.tsx";
-import NetlifyIcon from "./svg/NetlifyIcon.tsx";
-import TypescriptIcon from "./svg/TypescriptIcon.tsx";
+import IconLink from "../svg/IconLink.tsx";
+import FontAwesomeReactIcon from "../svg/FontAwesomeReactIcon.tsx";
+import RustIcon from "../svg/RustIcon.tsx";
+import GitHubIcon from "../svg/GitHubIcon.tsx";
+import NetlifyIcon from "../svg/NetlifyIcon.tsx";
+import TypescriptIcon from "../svg/TypescriptIcon.tsx";
+import "../../styles/PandemicSim.css";
 
 export default function PandemicSim({active}: {active: string}) {
     return (
         <div className={active === "Pandemic Sim" ? "left-pane-content" : "left-pane-content lower"}>
             <div>
-                <h1 className={'gis-title-text'}>Pandemic Simulation</h1>
+                <h1 className={'title-text'}>Pandemic Simulation</h1>
             </div>
             <div>
                 <div className={"flex"}>
@@ -38,7 +39,7 @@ export default function PandemicSim({active}: {active: string}) {
                             Technologies: <IconLink link={"https://react.dev/"} svg={<FontAwesomeReactIcon/>} hoverText={"React"}/>
                             , <IconLink link={"https://www.typescriptlang.org/"} svg={<TypescriptIcon/>} hoverText={"TypeScript"}/>
                             , <IconLink link={"https://www.rust-lang.org/"} svg={<RustIcon/>} hoverText={"Rust"}/>
-                            , <IconLink link={"https://github.com/GreyMW/wordle_clone"} svg={<GitHubIcon/>} hoverText={"GitHub"}/>
+                            , <IconLink link={""} svg={<GitHubIcon/>} hoverText={"GitHub"}/>
                             , <IconLink link={"https://www.netlify.com/"} svg={<NetlifyIcon/>} hoverText={"Netlify"}/>
                         </h1>
                     </div>

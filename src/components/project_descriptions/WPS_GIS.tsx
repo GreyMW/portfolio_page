@@ -1,11 +1,11 @@
-import "../styles/WPS_GIS.css";
-import "../styles/project_info.css";
-import FontAwesomeReactIcon from "./svg/FontAwesomeReactIcon.tsx";
-import TypescriptIcon from "./svg/TypescriptIcon.tsx";
-import LeafletIcon from "./svg/LeafletIcon.tsx";
-import GitHubIcon from "./svg/GitHubIcon.tsx";
-import NetlifyIcon from "./svg/NetlifyIcon.tsx";
-import IconLink from "./svg/IconLink.tsx";
+import "../../styles/WPS_GIS.css";
+import "../../styles/project_info.css";
+import FontAwesomeReactIcon from "../svg/FontAwesomeReactIcon.tsx";
+import TypescriptIcon from "../svg/TypescriptIcon.tsx";
+import LeafletIcon from "../svg/LeafletIcon.tsx";
+import GitHubIcon from "../svg/GitHubIcon.tsx";
+import NetlifyIcon from "../svg/NetlifyIcon.tsx";
+import IconLink from "../svg/IconLink.tsx";
 
 export default function WPS_GIS ({active}: {active: string}) {
     return (

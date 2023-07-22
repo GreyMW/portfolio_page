@@ -1,14 +1,14 @@
-import "../styles/WPS_GIS.css";
-import "../styles/project_info.css";
-import FontAwesomeReactIcon from "./svg/FontAwesomeReactIcon.tsx";
-import GitHubIcon from "./svg/GitHubIcon.tsx";
-import NetlifyIcon from "./svg/NetlifyIcon.tsx";
-import IconLink from "./svg/IconLink.tsx";
-import JavascriptIcon from "./svg/JavascriptIcon.tsx";
-import PythonIcon from "./svg/PythonIcon.tsx";
-import TensorFlowIcon from "./svg/TensorFlowIcon.tsx";
-import RustIcon from "./svg/RustIcon.tsx";
-import TauriIcon from "./svg/TauriIcon.tsx";
+import "../../styles/WPS_GIS.css";
+import "../../styles/project_info.css";
+import FontAwesomeReactIcon from "../svg/FontAwesomeReactIcon.tsx";
+import GitHubIcon from "../svg/GitHubIcon.tsx";
+import NetlifyIcon from "../svg/NetlifyIcon.tsx";
+import IconLink from "../svg/IconLink.tsx";
+import JavascriptIcon from "../svg/JavascriptIcon.tsx";
+import PythonIcon from "../svg/PythonIcon.tsx";
+import TensorFlowIcon from "../svg/TensorFlowIcon.tsx";
+import RustIcon from "../svg/RustIcon.tsx";
+import TauriIcon from "../svg/TauriIcon.tsx";
 
 export default function WordleAI ({active}: {active: string}) {
     return (
