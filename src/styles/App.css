@@ -5,7 +5,7 @@
 }
 
 html {
-    background: url("src/assets/full_background_2.jpg") no-repeat center center fixed;
+    background: url("../../public/assets/full_background_2.jpg") no-repeat center center fixed;
     /*filter: brightness(70%) contrast(120%);*/
     background-size: cover;
     color: white;
