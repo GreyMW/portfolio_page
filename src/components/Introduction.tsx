@@ -5,6 +5,8 @@ import ProjectSelect from "./ProjectSelect.tsx";
 import WPS_GIS from "./project_descriptions/WPS_GIS.tsx";
 import WordleAI from "./project_descriptions/WordleAI.tsx";
 import PandemicSim from "./project_descriptions/PandemicSim.tsx";
+import ECommerce from "./project_descriptions/E-Commerce.tsx";
+import WebScraper from "./project_descriptions/WebScraper.tsx";
 
 export default function Introduction() {
 
@@ -20,6 +22,8 @@ export default function Introduction() {
                     <WPS_GIS active={active}/>
                     <WordleAI active={active}/>
                     <PandemicSim active={active}/>
+                    <ECommerce active={active}/>
+                    <WebScraper active={active}/>
                 </div>
                 <div className={"main-subcontainer-right"}>
                     <ProjectSelect setActive={setActive}/>

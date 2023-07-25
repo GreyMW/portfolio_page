@@ -23,4 +23,8 @@ dist-ssr
 *.sln
 *.sw?
 
+# blend files
+*.blend
+*.blend1
+
 

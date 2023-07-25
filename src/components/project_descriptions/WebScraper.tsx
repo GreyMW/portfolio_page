@@ -6,11 +6,11 @@ import NetlifyIcon from "../svg/NetlifyIcon.tsx";
 import TypescriptIcon from "../svg/TypescriptIcon.tsx";
 import "../../styles/PandemicSim.css";
 
-export default function PandemicSim({active}: {active: string}) {
+export default function WebScraper({active}: {active: string}) {
     return (
-        <div className={active === "Pandemic Sim" ? "left-pane-content" : "left-pane-content lower"}>
+        <div className={active === "Web Scraper Dashboard" ? "left-pane-content" : "left-pane-content lower"}>
             <div>
-                <h1 className={'title-text'}>Pandemic Simulation</h1>
+                <h1 className={'title-text'}>Web Scraper Dashboard</h1>
             </div>
             <div>
                 <div className={"flex"}>
@@ -19,14 +19,13 @@ export default function PandemicSim({active}: {active: string}) {
                     </div>
                     <div>
                         <h1 className={'dev-text'}>
-                            An at-a-glance way to model the effect of prevention measures among diverse populations.
+                            Information is key to good analysis. I've decided to analyze some gambling sites and see how their sports odds compare.
                             <br/>
                             <br/>
-                            A dashboard style interface allows you to adjust parameters relating to a population and prevention methods.
+                            A dashboard style interface allows you to easily compare the data that is constantly being scraped to inform your decisions.
                             <br/>
                             <br/>
-                            A true nerd at heart, this is inspired by one of many math YouTubers I follow, <a
-                            href="https://www.youtube.com/@3blue1brown">3Blue1Brown</a>.
+                            Let's see which site is the most loose with their odds... and maybe find some arbitrage opportunities.
                             <br/>
                             <br/>
                             Take a look <a href=""><strong>here</strong></a> (unfinished).
