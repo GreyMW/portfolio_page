@@ -26,10 +26,10 @@ export default function PandemicSim({active}: {active: string}) {
                             <br/>
                             <br/>
                             A true nerd at heart, this is inspired by one of many math YouTubers I follow, <a
-                            href="https://www.youtube.com/@3blue1brown">3Blue1Brown</a>.
+                            href="https://www.youtube.com/@3blue1brown"  tabIndex={-1}>3Blue1Brown</a>.
                             <br/>
                             <br/>
-                            Take a look <a href=""><strong>here</strong></a> (unfinished).
+                            Take a look <a href="" tabIndex={-1}><strong>here</strong></a> (unfinished).
 
 
                         </h1>

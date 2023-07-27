@@ -28,7 +28,7 @@ export default function WebScraper({active}: {active: string}) {
                             Let's see which site is the most loose with their odds... and maybe find some arbitrage opportunities.
                             <br/>
                             <br/>
-                            Take a look <a href=""><strong>here</strong></a> (unfinished).
+                            Take a look <a href="" tabIndex={-1}><strong>here</strong></a> (unfinished).
 
 
                         </h1>

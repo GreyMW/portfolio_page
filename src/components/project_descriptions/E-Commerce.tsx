@@ -24,7 +24,7 @@ export default function ECommerce({active}: {active: string}) {
                             A copy of Amazon built completely with Dioxus, which is Rust's version of React.
                             <br/>
                             <br/>
-                            Take a look <a href=""><strong>here</strong></a> (unfinished).
+                            Take a look <a href="" tabIndex={-1}><strong>here</strong></a> (unfinished).
 
 
                         </h1>

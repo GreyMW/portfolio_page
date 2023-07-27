@@ -30,10 +30,10 @@ export default function WordleAI ({active}: {active: string}) {
                             Built using a genetic algorithm with models saved at powers of ten generations for comparison.
                             <br/>
                             <br/>
-                            Take a <a href={""}><strong>look</strong></a> (work in progress).
+                            Take a <a href={""} tabIndex={-1}><strong>look</strong></a> (work in progress).
                             <br/>
                             <br/>
-                            Or <a href={""}><strong>here</strong></a> (unfinished) if you prefer a standalone version made with Tauri and Rust.
+                            Or <a href={""} tabIndex={-1}><strong>here</strong></a> (unfinished) if you prefer a standalone version made with Tauri and Rust.
                         </h1>
 
                         <h1 className={'dev-text'}>
