@@ -28,7 +28,7 @@ export default function WPS_GIS ({active}: {active: string}) {
                             investigations.
                             <br/>
                             <br/>
-                            <a href={""}><strong>This</strong></a> is a
+                            <a href={"https://www.graemeweiss.dev/GIS"}><strong>This</strong></a> is a
                             recreation of that project for the web.
                         </h1>
 
