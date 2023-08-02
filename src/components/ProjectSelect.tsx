@@ -7,7 +7,7 @@ export default function ProjectSelect ({setActive}: {setActive: React.Dispatch<R
     return (
 
         <div className={"project-select-container"}>
-            <img src="../../public/assets/corner_ornament_complex2.svg" alt="" className={"ornament-small"}/>
+            <img src="/assets/corner_ornament_complex2.svg" alt="" className={"ornament-small"}/>
             <div className={'projects-container'}>
                 <h1 className={'projects-heading'}>Projects</h1>
                 <CustomList comingSoonText={coming_soon} projectNames={projects} setActive={setActive}/>

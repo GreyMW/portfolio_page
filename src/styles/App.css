@@ -18,6 +18,10 @@ body {
     height: 40vh;
 }
 
+.relative {
+    position: relative;
+}
+
 .blue {
     background: blue;
 }
