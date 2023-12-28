@@ -1,0 +1,2 @@
+# Redirects from what the browser requests to what we serve
+/dnd        https://jovial-tanuki-62cf61.netlify.app/
